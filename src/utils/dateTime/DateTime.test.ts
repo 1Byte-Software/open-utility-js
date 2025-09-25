@@ -1,11 +1,7 @@
 import dayjs from 'dayjs';
-import utc from 'dayjs/plugin/utc';
-import timezone from 'dayjs/plugin/timezone';
-import { DateTimeFormatConfig } from './types';
+import '../../configs/dayjs';
 import { DateTimeUtils } from './DateTime';
-
-dayjs.extend(utc);
-dayjs.extend(timezone);
+import { DateTimeFormatConfig } from './types';
 
 describe('DateTimeUtils', () => {
     const SAMPLE_DATE = '2023-08-28T23:57:23Z'; // UTC ISO string
