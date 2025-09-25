@@ -13,7 +13,10 @@
         "forceConsistentCasingInFileNames": true,
         "paths": {
             "tslib": ["./node_modules/tslib/tslib.d.ts"]
-        }
+        },
+
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true
     },
     "include": ["src"],
     "exclude": ["node_modules", "dist", "rollup.config.js"]
