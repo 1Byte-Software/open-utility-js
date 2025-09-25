@@ -1,0 +1,38 @@
+{
+    "name": "@jframework/shared",
+    "description": "The Javascript utilities package for JFW",
+    "version": "0.0.0",
+    "author": "1byte devteam",
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/1Byte-Software/jfw-shared/issues"
+    },
+    "homepage": "https://github.com/1Byte-Software/jfw-shared",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/1Byte-Software/jfw-shared.git"
+    },
+    "scripts": {
+        "build": "rollup -c",
+        "watch": "npm run build -- --watch src",
+        "prepublishOnly": "npm run build",
+        "test": "yalc publish --push --no-scripts --files ."
+    },
+    "dependencies": {
+        "dayjs": "^1.11.18"
+    },
+    "devDependencies": {
+        "@types/node": "^22.5.5",
+        "prettier": "^3.3.3",
+        "rollup": "^4.22.0",
+        "rollup-plugin-typescript2": "^0.36.0",
+        "tslib": "^2.8.1",
+        "typescript": "^5.6.2"
+    }
+}
