@@ -1,17 +1,17 @@
 {
-    "name": "@jframework/shared",
+    "name": "open-utility-js",
     "description": "The Javascript utilities package for JFW",
     "version": "0.0.0",
     "author": "1byte devteam",
     "main": "src/index.ts",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/1Byte-Software/jfw-shared/issues"
+        "url": "https://github.com/1Byte-Software/open-utility-js/issues"
     },
-    "homepage": "https://github.com/1Byte-Software/jfw-shared",
+    "homepage": "https://github.com/1Byte-Software/open-utility-js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/1Byte-Software/jfw-shared.git"
+        "url": "git+https://github.com/1Byte-Software/open-utility-js.git"
     },
     "scripts": {
         "build": "rollup -c",
